@@ -1,0 +1,12 @@
+canvas{
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  background: black;
+  margin: auto;
+  display: block;
+}
+
+body{
+  background: black;
+}
