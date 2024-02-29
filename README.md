@@ -8,9 +8,9 @@ Only one laser shot can be displayed on the screen at a time.
 Score is incremented with each enemy killed.
 
 ## Controls
-Left Key - Move Left
-Right Key - Move Right
-Spacebar - Shoot
+* Left Key - Move Left
+* Right Key - Move Right
+* Spacebar - Shoot
 
 ## Link
 https://guileless-bublanina-65ab12.netlify.app/
