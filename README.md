@@ -13,4 +13,4 @@ Score is incremented with each enemy killed.
 * Spacebar - Shoot
 
 ## Link
-https://guileless-bublanina-65ab12.netlify.app/
+https://plasmas-spaceship.netlify.app/
