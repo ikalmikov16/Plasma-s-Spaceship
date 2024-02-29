@@ -1,11 +1,31 @@
-<html>
-	<head>
-		<title> Plasma's Journey </title>
-		<link href="css/SpaceShip.css", rel="stylesheet"/>
-		<script src="js/SpaceShip.js"></script>
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Plasma's Journey </title>
 
-	<body onload = "start()">
+	<link href="css/SpaceShip.css", rel="stylesheet"/>
+	<script src="js/SpaceShip.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body onload = "start()">
+	<div class="container">
+		<div class="controls">
+			<h3>Controls</h3>
+			<ul>
+				<li>Left Key - Move Left</li>
+				<li>Right Key - Move Right</li>
+				<li>Spacebar - Shoot</li>
+			</ul>
+		</div>
+		<div>
 			<canvas id = "1", width = "500", height = "800"> </canvas>
-	</body>
+		</div>
+		
+		<div class="space"></div>
+	</div>
+</body>
 </html>
