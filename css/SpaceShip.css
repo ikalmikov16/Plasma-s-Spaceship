@@ -1,12 +1,36 @@
-canvas{
-  border-width: 5px;
-  border-style: solid;
-  border-color: red;
-  background: black;
-  margin: auto;
-  display: block;
+html, body{
+  height: 100vh;
+  background-color: black;
 }
 
-body{
+canvas{
   background: black;
+  border: 5px solid red;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.controls{
+  color: white;
+  width: 250px;
+  margin-top: 50px;
+  margin-right: 50px;
+  align-self: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3{
+  font-size: 25px;
+}
+
+ul{
+  font-size: 17px;
+}
+
+.space{
+  width: 250px;
 }
